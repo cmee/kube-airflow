@@ -30,6 +30,9 @@ This repository contains:
 Create all the deployments and services to run Airflow on Kubernetes:
 
     kubectl create -f airflow.all.yaml
+	[CMee] new version can use:create -f airflow.cmee.yaml
+	minikube version: v1.4.0
+	kubectl  version: v1.16.1
 
 It will create deployments for:
 
